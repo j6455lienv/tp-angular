@@ -1,45 +1,41 @@
+<h2>{{ title }}</h2>
 
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{ title }}
-  </h1>
-</div>
 
-<form>
 
-  <input type="text" value={{value}}/>
 
-  <div>
+<div class="table">
+  <input class="row" type="text" value={{value}}/>
+
+  <div class='row'>
     <input type="button" value="CE" (click)="init('-')"/>
     <input type="button" value="&larr;" (click)="suppLastChar()"/>
     <input type="button" value="%" (click)="affichage('%')"/>
     <input type="button" value="&plusmn;" (click)="plusMoins()"/>
-    <input type="button" value="&radic;" (click)="sqrt()"/>
   </div>
-  <div>
+  <div class='row'>
     <input type="button" value="-" (click)="affichage('-')"/>
     <input type="button" value="7" (click)="affichage('7')"/>
     <input type="button" value="8" (click)="affichage('8')"/>
     <input type="button" value="9" (click)="affichage('9')"/>
   </div>
-  <div>
+  <div class='row'>
     <input type="button" value="+" (click)="affichage('+')"/>
     <input type="button" value="4" (click)="affichage('4')"/>
     <input type="button" value="5" (click)="affichage('5')"/>
     <input type="button" value="6" (click)="affichage('6')"/>
   </div>
-  <div>
+  <div class='row'>
     <input type="button" value="*" (click)="affichage('*')"/>
     <input type="button" value="1" (click)="affichage('1')"/>
     <input type="button" value="2" (click)="affichage('2')"/>
     <input type="button" value="3" (click)="affichage('3')"/>
   </div>
 
-  <div>
+  <div class='row'>
     <input type="button" value="/" (click)="affichage('/')"/>
     <input type="button" value="0" (click)="affichage('0')"/>
     <input type="button" value="." (click)="affichage('.')"/>
     <input type="button" value="=" (click)="calcul()"/>
   </div>
-</form>
+
+</div>

@@ -12,6 +12,8 @@ export class CoursComponent implements OnInit {
   ngOnInit() {
   }
 
+  title = 'angular-cours';
+
   liste = [{
     nom: "Einstein",
     prenom: "Albert",

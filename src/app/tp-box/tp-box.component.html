@@ -1,0 +1,11 @@
+<h2>{{ title }}</h2>
+
+<form>
+  <input type="button" value="normal" (click)="class ='normal'">
+  <input type="button" value="danger" (click)="class ='danger'">
+  <input type="button" value="cool" (click)="class ='cool'">
+</form>
+
+
+<div id="block" class="{{ class }}">
+</div>

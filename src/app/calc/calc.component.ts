@@ -11,8 +11,7 @@ export class CalcComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  title = 'calculatrice angular';
+  title = 'angular-tp1-CALCULETTE';
   value = '';
 
   //fonction affichage 'qui recupere les clicks de l'utilisateur'
@@ -31,12 +30,7 @@ export class CalcComponent implements OnInit {
 
 //fonction plus ou moins 'signe plus ou moins'
   plusMoins() {
-    return this.value = this.value;
-  }
-
-//racine carre
-  sqrt() {
-    return this.value = Math.sqrt(this.value);
+    return -this.value;
   }
 
 //fonction suppression du dernier caractere 'fleche arriere'
@@ -44,6 +38,4 @@ export class CalcComponent implements OnInit {
     var result = this.value.toString().substr(0, this.value.length - 1);
     return this.value = result;
   }
-
-
 }

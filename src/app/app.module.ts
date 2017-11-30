@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { CalcComponent } from './calc/calc.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { CoursComponent } from './cours/cours.component';
+import { TpBoxComponent } from './tp-box/tp-box.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { CoursComponent } from './cours/cours.component';
     AppComponent,
     CalcComponent,
     CoursComponent,
+    TpBoxComponent,
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule

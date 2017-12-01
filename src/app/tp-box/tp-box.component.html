@@ -1,11 +1,13 @@
 <h2>{{ title }}</h2>
 
 <form>
-  <input type="button" value="normal" (click)="class ='normal'">
-  <input type="button" value="danger" (click)="class ='danger'">
-  <input type="button" value="cool" (click)="class ='cool'">
-</form>
+  <input type="button" value="info" (click)="choixClass('0')">
+  <input type="button" value="danger" (click)="choixClass('1')">
+  <input type="button" value="erreur" (click)="choixClass('2')">
+</form><br>
 
-
-<div id="block" class="{{ class }}">
+<div class="{{ type }}">
+  <h1>{{ titre }}</h1>
+  <p>{{ mess }}</p>
 </div>
+

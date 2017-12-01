@@ -1,9 +1,12 @@
-<div style="text-align:center"><h1>{{ title }}</h1></div>
+
+<div class="container" style="text-align:center"><h1>{{ title }}</h1>
 
 <nav>
-  <a routerLink="/cours"><input type="button" value="COURS"></a>
-  <a routerLink="/calc"><input type="button" value="CALCULATRICE"></a>
-  <a routerLink="/box"><input type="button" value="BOX"></a>
+  <a routerLink="/cours"><input class='btn btn-primary' type="button" value="COURS"></a>
+  <a routerLink="/calc"><input class='btn btn-primary' type="button" value="CALCULATRICE"></a>
+  <a routerLink="/box"><input class='btn btn-primary' type="button" value="BOX"></a>
+  <a routerLink="/service"><input class='btn btn-primary' type="button" value="SERVICE"></a>
 </nav>
 
 <router-outlet></router-outlet>
+</div>

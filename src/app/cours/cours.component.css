@@ -1,19 +1,19 @@
 ul {
-  list-style-type : none;
+  list-style-type: none;
 }
 
-li{
-  margin-top : 10px;
+li {
+  margin-top: 10px;
 }
 
-.erreur{
-  background-color : indianred;
+.erreur {
+  background-color: indianred;
 }
 
-.info{
-  background-color : orange;
+.info {
+  background-color: orange;
 }
 
-.selected{
-  background-color : pink;
+.selected {
+  background-color: pink;
 }
